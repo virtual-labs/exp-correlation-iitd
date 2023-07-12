@@ -2,37 +2,68 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What does a correlation coefficient measure?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The strength and direction of the linear relationship between two variables.",
+        "b": "The causal relationship between two variables."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "A correlation coefficient measures the strength and direction of the linear relationship between two variables. It quantifies the degree of association between the variables.",
+        "b": "This statement is incorrect. A correlation coefficient does not determine the causal relationship between two variables, but rather indicates the strength and direction of the association."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the range of possible values for a correlation coefficient?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Between -1 and 1, inclusive.",
+        "b": "Between 0 and 1, inclusive."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This statement is correct. The range of possible values for a correlation coefficient is between -1 and 1, inclusive. -1 indicates a perfect negative correlation, 1 indicates a perfect positive correlation, and 0 indicates no linear correlation.",
+        "b": "This statement is incorrect. The range of possible values for a correlation coefficient is between -1 and 1, inclusive, not between 0 and 1."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does a correlation coefficient of 0 indicate?",
+      "answers": {
+        "a": "There is no relationship between the two variables.",
+        "b": "There is a strong positive relationship between the two variables."
+      },
+      "explanations": {
+        "a": "This statement is correct. A correlation coefficient of 0 indicates no linear relationship between the two variables. It does not imply the absence of any relationship, as there might be a nonlinear association or other types of relationships.",
+        "b": "This statement is incorrect. A correlation coefficient of 0 does not indicate a strong positive relationship, but rather no linear relationship between the two variables."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the difference between positive and negative correlation?",
+      "answers": {
+        "a": "Positive correlation means the variables increase together, while negative correlation means they decrease together.",
+        "b": "Positive correlation means one variable causes the other, while negative correlation means they are unrelated."
+      },
+      "explanations": {
+        "a": "This statement is correct. Positive correlation means that as one variable increases, the other variable also tends to increase. Negative correlation means that as one variable increases, the other variable tends to decrease.",
+        "b": "This statement is incorrect. Correlation does not imply causation. Positive correlation means the variables increase together, while negative correlation means they have an inverse relationship, where one variable tends to decrease as the other increases."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Can a correlation coefficient of -0.8 be considered a strong negative correlation?",
+      "answers": {
+        "a": "Yes, a correlation coefficient of -0.8 indicates a strong negative correlation.",
+        "b": "No, a correlation coefficient of -0.8 indicates a weak negative correlation."
+      },
+      "explanations": {
+        "a": "This statement is correct. A correlation coefficient of -0.8 indicates a strong negative correlation. The closer the correlation coefficient is to -1 (negative one), the stronger the negative correlation.",
+        "b": "This statement is incorrect. A correlation coefficient of -0.8 indicates a strong negative correlation, not a weak negative correlation."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
