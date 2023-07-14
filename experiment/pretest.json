@@ -2,38 +2,71 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is correlation?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A statistical measure that describes the strength and direction of a linear relationship between two variables.",
+        "b": "A statistical measure that describes the causal relationship between two variables."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This statement is correct. Correlation measures the strength and direction of a linear relationship between two variables, but it does not imply causation.",
+        "b": "This statement is incorrect. Correlation does not imply causation; it only measures the strength and direction of the relationship between variables."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "medium"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the range of possible values for correlation coefficient?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "From -1 to 0",
+        "b": "From -1 to 1",
+        "c": "From 0 to 1",
+        "d": "From 0 to 100"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This statement is incorrect. The range of possible values for the correlation coefficient is from -1 to 1, where -1 indicates a perfect negative correlation, 0 indicates no correlation, and 1 indicates a perfect positive correlation.",
+        "b": "This statement is correct. The range of possible values for the correlation coefficient is from -1 to 1, where -1 indicates a perfect negative correlation, 0 indicates no correlation, and 1 indicates a perfect positive correlation."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Pearson correlation coefficient?",
+      "answers": {
+        "a": "A measure of the strength and direction of a linear relationship between two variables.",
+        "b": "A measure of the association between two categorical variables."
+      },
+      "explanations": {
+        "a": "This statement is correct. The Pearson correlation coefficient measures the strength and direction of a linear relationship between two variables.",
+        "b": "This statement is incorrect. The Pearson correlation coefficient is not used to measure the association between categorical variables; it specifically measures the strength and direction of a linear relationship between two continuous variables."
+      },
+      "correctAnswer": "a",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the coefficient of determination (R-squared)?",
+      "answers": {
+        "a": "A measure of the strength and direction of a linear relationship between two variables.",
+        "b": "A measure of the proportion of the variation in the dependent variable explained by the independent variable."
+      },
+      "explanations": {
+        "a": "This statement is incorrect. The coefficient of determination (R-squared) is not a measure of the strength and direction of a linear relationship; it specifically measures the proportion of the variation in the dependent variable explained by the independent variable.",
+        "b": "This statement is correct. The coefficient of determination (R-squared) is a measure of the proportion of the variation in the dependent variable explained by the independent variable."
+      },
+      "correctAnswer": "b",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the Spearman's rank correlation coefficient?",
+      "answers": {
+        "a": "A measure of the strength and direction of a linear relationship between two variables.",
+        "b": "A non-parametric measure of the monotonic relationship between two variables."
+      },
+      "explanations": {
+        "a": "This statement is incorrect. The Spearman's rank correlation coefficient is not used to measure the strength and direction of a linear relationship; it is a non-parametric measure of the monotonic relationship between two variables.",
+        "b": "This statement is correct. The Spearman's rank correlation coefficient is a non-parametric measure of the monotonic relationship between two variables, which means it assesses the strength and direction of the relationship without assuming linearity."
+      },
+      "correctAnswer": "b",
+      "difficulty": "medium"
     }
   ]
 }
