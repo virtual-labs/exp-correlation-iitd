@@ -1,86 +1,85 @@
-
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the difference between correlation and causation?",
+      "question": "The correlation coefficient between two variables X and Y is 0.85. What does this value indicate about the relationship between X and Y?",
       "answers": {
-        "a": "Correlation refers to a cause-and-effect relationship, while causation refers to a statistical association between variables.",
-        "b": "Correlation refers to a statistical association between variables, while causation refers to a cause-and-effect relationship."
+        "a": "A weak positive correlation.",
+        "b": "A moderate positive correlation.",
+        "c": "A strong positive correlation.",
+        "d": "A perfect positive correlation."
       },
       "explanations": {
-        "a": "This statement is incorrect. Correlation does not imply causation; it simply measures the degree of association between variables.",
-        "b": "Correlation measures the statistical association between variables, while causation refers to a cause-and-effect relationship where one variable directly influences another."
-      },
-      "correctAnswer": "b",
-      "difficulty": "hard"
-    },
-    {
-      "question": "You have a dataset with 200 observations and want to calculate the correlation coefficient between two variables. The result is -0.75. What does this value indicate?",
-      "answers": {
-        "a": "A strong positive correlation.",
-        "b": "A strong negative correlation.",
-        "c": "A weak positive correlation.",
-        "d": "A weak negative correlation."
-      },
-      "explanations": {
-        "a": "This answer is incorrect. A correlation coefficient of -0.75 indicates a strong negative correlation, not a strong positive correlation.",
-        "b": "This answer is correct. A correlation coefficient of -0.75 indicates a strong negative correlation, meaning the variables move in opposite directions.",
-        "c": "This answer is incorrect. A correlation coefficient of -0.75 indicates a strong negative correlation, not a weak positive correlation.",
-        "d": "This answer is incorrect. A correlation coefficient of -0.75 indicates a strong negative correlation, not a weak negative correlation."
-      },
-      "correctAnswer": "b",
-      "difficulty": "hard"
-    },
-    {
-      "question": "You have a dataset with 300 observations and want to calculate the correlation coefficient between two variables. The result is 0.15. What does this value indicate?",
-      "answers": {
-        "a": "A strong positive correlation.",
-        "b": "A strong negative correlation.",
-        "c": "A weak positive correlation.",
-        "d": "A weak negative correlation."
-      },
-      "explanations": {
-        "a": "This answer is incorrect. A correlation coefficient of 0.15 indicates a weak positive correlation, not a strong positive correlation.",
-        "b": "This answer is incorrect. A correlation coefficient of 0.15 indicates a weak positive correlation, not a strong negative correlation.",
-        "c": "This answer is correct. A correlation coefficient of 0.15 indicates a weak positive correlation, meaning the variables have a slight tendency to move together.",
-        "d": "This answer is incorrect. A correlation coefficient of 0.15 indicates a weak positive correlation, not a weak negative correlation."
+        "a": "This answer is incorrect. A correlation coefficient of 0.85 indicates a strong positive correlation between variables X and Y, not a weak positive correlation.",
+        "b": "This answer is incorrect. A correlation coefficient of 0.85 indicates a strong positive correlation between variables X and Y, not a moderate positive correlation.",
+        "c": "This answer is correct. A correlation coefficient of 0.85 indicates a strong positive correlation between variables X and Y.",
+        "d": "This answer is incorrect. A correlation coefficient of 0.85 does not indicate a perfect positive correlation."
       },
       "correctAnswer": "c",
       "difficulty": "hard"
     },
     {
-      "question": "You have a dataset with 100 observations and calculate a correlation coefficient of 0.95 between two variables. What can you conclude about their relationship?",
+      "question": "If the correlation coefficient between two variables A and B is -0.60, what kind of relationship do they have?",
       "answers": {
-        "a": "There is a strong positive linear relationship between the variables.",
-        "b": "There is a strong negative linear relationship between the variables.",
-        "c": "There is a weak positive linear relationship between the variables.",
-        "d": "There is a weak negative linear relationship between the variables."
+        "a": "A weak positive correlation.",
+        "b": "A moderate negative correlation.",
+        "c": "A strong negative correlation.",
+        "d": "A perfect negative correlation."
       },
       "explanations": {
-        "a": "This answer is correct. A correlation coefficient of 0.95 indicates a strong positive linear relationship between the variables.",
-        "b": "This answer is incorrect. A correlation coefficient of 0.95 indicates a strong positive linear relationship between the variables, not a strong negative linear relationship.",
-        "c": "This answer is incorrect. A correlation coefficient of 0.95 indicates a strong positive linear relationship between the variables, not a weak positive linear relationship.",
-        "d": "This answer is incorrect. A correlation coefficient of 0.95 indicates a strong positive linear relationship between the variables, not a weak negative linear relationship."
+        "a": "This answer is incorrect. A correlation coefficient of -0.60 indicates a moderate negative correlation between variables A and B, not a weak positive correlation.",
+        "b": "This answer is correct. A correlation coefficient of -0.60 indicates a moderate negative correlation between variables A and B.",
+        "c": "This answer is incorrect. A correlation coefficient of -0.60 indicates a moderate negative correlation between variables A and B, not a strong negative correlation.",
+        "d": "This answer is incorrect. A correlation coefficient of -0.60 indicates a moderate negative correlation between variables A and B, not a perfect negative correlation."
+      },
+      "correctAnswer": "b",
+      "difficulty": "hard"
+    },
+    {
+      "question": "In a dataset with 15 data points, the correlation coefficient between variables P and Q is -0.72. What is the sum of the ranks of variable P in the dataset?",
+      "answers": {
+        "a": "120",
+        "b": "105",
+        "c": "90",
+        "d": "75"
+      },
+      "explanations": {
+        "a": "This answer is correct. The sum of the ranks can be calculated using the formula: Sum of Ranks = n(n + 1) / 2, where n is the number of data points. For 15 data points, Sum of Ranks = 15(15 + 1) / 2 = 120.",
+        "b": "This answer is incorrect. The correct sum of ranks is 120, not 105.",
+        "c": "This answer is incorrect. The correct sum of ranks is 120, not 90.",
+        "d": "This answer is incorrect. The correct sum of ranks is 120, not 75."
       },
       "correctAnswer": "a",
       "difficulty": "hard"
     },
     {
-      "question": "You have a dataset with 250 observations and calculate a correlation coefficient of -0.25 between two variables. What can you conclude about their relationship?",
+      "question": "If the coefficient of determination (R-squared) is 0.64, what percentage of the variation in the dependent variable is explained by the independent variable?",
       "answers": {
-        "a": "There is a strong positive linear relationship between the variables.",
-        "b": "There is a strong negative linear relationship between the variables.",
-        "c": "There is a weak positive linear relationship between the variables.",
-        "d": "There is a weak negative linear relationship between the variables."
+        "a": "36%",
+        "b": "64%",
+        "c": "46%",
+        "d": "84%"
       },
       "explanations": {
-        "a": "This answer is incorrect. A correlation coefficient of -0.25 indicates a weak negative linear relationship between the variables, not a strong positive linear relationship.",
-        "b": "This answer is incorrect. A correlation coefficient of -0.25 indicates a weak negative linear relationship between the variables, not a strong negative linear relationship.",
-        "c": "This answer is incorrect. A correlation coefficient of -0.25 indicates a weak negative linear relationship between the variables, not a weak positive linear relationship.",
-        "d": "This answer is correct. A correlation coefficient of -0.25 indicates a weak negative linear relationship between the variables."
+        "a": "This answer is incorrect. The correct percentage of variation explained is 64%, not 36%.",
+        "b": "This answer is correct. R-squared represents the proportion of the variation in the dependent variable explained by the independent variable. In this case, 0.64 or 64% of the variation is explained.",
+        "c": "This answer is incorrect. The correct percentage of variation explained is 64%, not 46%.",
+        "d": "This answer is incorrect. The correct percentage of variation explained is 64%, not 84%."
       },
-      "correctAnswer": "d",
+      "correctAnswer": "b",
+      "difficulty": "hard"
+    },
+    {
+      "question": "If the p-value associated with a correlation coefficient is 0.02, is the correlation statistically significant at a 0.05 level of significance?",
+      "answers": {
+        "a": "Yes, the correlation is statistically significant.",
+        "b": "No, the correlation is not statistically significant."
+      },
+      "explanations": {
+        "a": "This answer is correct. A p-value of 0.02 is less than the significance level of 0.05, indicating that the correlation is statistically significant.",
+        "b": "This answer is incorrect. A p-value of 0.02 is less than the significance level of 0.05, indicating that the correlation is statistically significant."
+      },
+      "correctAnswer": "a",
       "difficulty": "hard"
     }
   ]
