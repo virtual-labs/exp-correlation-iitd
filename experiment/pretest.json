@@ -1,69 +1,87 @@
 {
-  "version": 2.0,
+  "version": 1.0,
   "questions": [
     {
-      "question": "What is correlation?",
+      "question": "What is the primary objective of the experiment involving correlation coefficients?",
       "answers": {
-        "a": "A statistical measure that describes the strength and direction of a linear relationship between two variables.",
-        "b": "A statistical measure that describes the causal relationship between two variables."
+        "a": "To create a relationship between two variables.",
+        "b": "To quantify the strength and direction of a relationship between two variables.",
+        "c": "To find the average of two variables.",
+        "d": "To determine the difference between two variables."
       },
       "explanations": {
-        "a": "This statement is correct. Correlation measures the strength and direction of a linear relationship between two variables, but it does not imply causation.",
-        "b": "This statement is incorrect. Correlation does not imply causation; it only measures the strength and direction of the relationship between variables."
-      },
-      "correctAnswer": "a",
-      "difficulty": "medium"
-    },
-    {
-      "question": "What is the range of possible values for correlation coefficient?",
-      "answers": {
-        "a": "From -1 to 0",
-        "b": "From -1 to 1",
-        "c": "From 0 to 1",
-        "d": "From 0 to 100"
-      },
-      "explanations": {
-        "a": "This statement is incorrect. The range of possible values for the correlation coefficient is from -1 to 1, where -1 indicates a perfect negative correlation, 0 indicates no correlation, and 1 indicates a perfect positive correlation.",
-        "b": "This statement is correct. The range of possible values for the correlation coefficient is from -1 to 1, where -1 indicates a perfect negative correlation, 0 indicates no correlation, and 1 indicates a perfect positive correlation."
+        "a": "This statement is incorrect. The aim is not to create a relationship but to quantify and understand the existing relationship.",
+        "b": "This statement is correct. The experiment aims to quantify the strength and direction of a relationship between two variables using correlation coefficients.",
+        "c": "This statement is incorrect. The experiment is not concerned with finding the average of the variables.",
+        "d": "This statement is incorrect. The experiment aims to quantify the relationship, not the difference between variables."
       },
       "correctAnswer": "b",
       "difficulty": "medium"
     },
     {
-      "question": "What is the Pearson correlation coefficient?",
+      "question": "What does a correlation coefficient of -1 indicate?",
       "answers": {
-        "a": "A measure of the strength and direction of a linear relationship between two variables.",
-        "b": "A measure of the association between two categorical variables."
+        "a": "A perfect positive correlation.",
+        "b": "No correlation.",
+        "c": "A perfect negative correlation.",
+        "d": "A weak positive correlation."
       },
       "explanations": {
-        "a": "This statement is correct. The Pearson correlation coefficient measures the strength and direction of a linear relationship between two variables.",
-        "b": "This statement is incorrect. The Pearson correlation coefficient is not used to measure the association between categorical variables; it specifically measures the strength and direction of a linear relationship between two continuous variables."
+        "a": "This statement is incorrect. A correlation coefficient of -1 indicates a perfect negative correlation.",
+        "b": "This statement is incorrect. A correlation coefficient of -1 indicates a perfect negative correlation.",
+        "c": "This statement is correct. A correlation coefficient of -1 indicates a perfect negative correlation, meaning as one variable increases, the other decreases.",
+        "d": "This statement is incorrect. A correlation coefficient of -1 does not indicate a weak positive correlation."
+      },
+      "correctAnswer": "c",
+      "difficulty": "medium"
+    },
+    {
+      "question": "If the correlation coefficient between two variables is 0.75, how would you describe the relationship?",
+      "answers": {
+        "a": "A strong negative correlation.",
+        "b": "A moderate positive correlation.",
+        "c": "A strong positive correlation.",
+        "d": "No correlation."
+      },
+      "explanations": {
+        "a": "This statement is incorrect. A correlation coefficient of 0.75 indicates a strong positive correlation, not a negative correlation.",
+        "b": "This statement is incorrect. A correlation coefficient of 0.75 indicates a strong positive correlation, not a moderate positive correlation.",
+        "c": "This statement is correct. A correlation coefficient of 0.75 indicates a strong positive correlation between the two variables.",
+        "d": "This statement is incorrect. A correlation coefficient of 0.75 indicates a strong positive correlation, not no correlation."
+      },
+      "correctAnswer": "c",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which mathematical formula is used to calculate the Pearson correlation coefficient (r)?",
+      "answers": {
+        "a": "r = (nΣxy - ΣxΣy) / sqrt[(nΣx^2 - (Σx)^2)(nΣy^2 - (Σy)^2)]",
+        "b": "r = 1 - (6Σd^2) / [n(n^2 - 1)]",
+        "c": "r = Σ(x - μx)(y - μy) / sqrt[Σ(x - μx)^2 * Σ(y - μy)^2]",
+        "d": "r = Σxy / sqrt[(Σx^2)(Σy^2)]"
+      },
+      "explanations": {
+        "a": "This statement is correct. This formula represents the calculation for the Pearson correlation coefficient (r) between two variables x and y.",
+        "b": "This statement is incorrect. This formula does not represent the calculation for the Pearson correlation coefficient.",
+        "c": "This statement is incorrect. This formula does not represent the calculation for the Pearson correlation coefficient.",
+        "d": "This statement is incorrect. This formula does not represent the calculation for the Pearson correlation coefficient."
       },
       "correctAnswer": "a",
       "difficulty": "medium"
     },
     {
-      "question": "What is the coefficient of determination (R-squared)?",
+      "question": "What does a correlation coefficient of 0 indicate?",
       "answers": {
-        "a": "A measure of the strength and direction of a linear relationship between two variables.",
-        "b": "A measure of the proportion of the variation in the dependent variable explained by the independent variable."
+        "a": "A perfect positive correlation.",
+        "b": "No correlation.",
+        "c": "A perfect negative correlation.",
+        "d": "A weak positive correlation."
       },
       "explanations": {
-        "a": "This statement is incorrect. The coefficient of determination (R-squared) is not a measure of the strength and direction of a linear relationship; it specifically measures the proportion of the variation in the dependent variable explained by the independent variable.",
-        "b": "This statement is correct. The coefficient of determination (R-squared) is a measure of the proportion of the variation in the dependent variable explained by the independent variable."
-      },
-      "correctAnswer": "b",
-      "difficulty": "medium"
-    },
-    {
-      "question": "What is the Spearman's rank correlation coefficient?",
-      "answers": {
-        "a": "A measure of the strength and direction of a linear relationship between two variables.",
-        "b": "A non-parametric measure of the monotonic relationship between two variables."
-      },
-      "explanations": {
-        "a": "This statement is incorrect. The Spearman's rank correlation coefficient is not used to measure the strength and direction of a linear relationship; it is a non-parametric measure of the monotonic relationship between two variables.",
-        "b": "This statement is correct. The Spearman's rank correlation coefficient is a non-parametric measure of the monotonic relationship between two variables, which means it assesses the strength and direction of the relationship without assuming linearity."
+        "a": "This statement is incorrect. A correlation coefficient of 0 does not indicate a perfect positive correlation.",
+        "b": "This statement is correct. A correlation coefficient of 0 indicates no correlation between the two variables.",
+        "c": "This statement is incorrect. A correlation coefficient of 0 does not indicate a perfect negative correlation.",
+        "d": "This statement is incorrect. A correlation coefficient of 0 does not indicate a weak positive correlation."
       },
       "correctAnswer": "b",
       "difficulty": "medium"
