@@ -2,7 +2,6 @@
   "version": 2.0,
   "questions": [
     {
-
       "question": "The correlation coefficient between two variables X and Y is 0.85. What does this value indicate about the relationship between X and Y?",
       "answers": {
         "a": "A weak positive correlation.",
@@ -49,22 +48,11 @@
         "b": "This answer is incorrect. The correct sum of ranks is 120, not 105.",
         "c": "This answer is incorrect. The correct sum of ranks is 120, not 90.",
         "d": "This answer is incorrect. The correct sum of ranks is 120, not 75."
-=======
-      "question": "What is the purpose of calculating a correlation coefficient?",
-      "answers": {
-        "a": "To measure the strength and direction of the linear relationship between two variables.",
-        "b": "To determine the causal relationship between two variables."
-      },
-      "explanations": {
-        "a": "The purpose of calculating a correlation coefficient is to measure the strength and direction of the linear relationship between two variables. It provides a quantitative measure of their association.",
-        "b": "This statement is incorrect. Calculating a correlation coefficient does not determine the causal relationship between two variables, but rather assesses their degree of association."
-
       },
       "correctAnswer": "a",
       "difficulty": "hard"
     },
     {
-
       "question": "If the coefficient of determination (R-squared) is 0.64, what percentage of the variation in the dependent variable is explained by the independent variable?",
       "answers": {
         "a": "36%",
@@ -93,60 +81,6 @@
       },
       "correctAnswer": "a",
       "difficulty": "hard"
-=======
-      "question": "What does a correlation coefficient of 1 indicate?",
-      "answers": {
-        "a": "There is a perfect positive linear relationship between the two variables.",
-        "b": "There is no linear relationship between the two variables."
-      },
-      "explanations": {
-        "a": "This statement is correct. A correlation coefficient of 1 indicates a perfect positive linear relationship between the two variables. It means that as one variable increases, the other variable increases proportionally.",
-        "b": "This statement is incorrect. A correlation coefficient of 1 indicates a perfect positive linear relationship, not the absence of a linear relationship."
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Can a correlation coefficient be greater than 1?",
-      "answers": {
-        "a": "Yes, a correlation coefficient can be greater than 1.",
-        "b": "No, a correlation coefficient cannot exceed 1."
-      },
-      "explanations": {
-        "a": "This statement is incorrect. A correlation coefficient cannot be greater than 1. It ranges between -1 and 1, inclusive.",
-        "b": "This statement is correct. A correlation coefficient cannot exceed 1. It ranges between -1 and 1, inclusive."
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What does a correlation coefficient of 0.2 indicate?",
-      "answers": {
-        "a": "There is a weak positive linear relationship between the two variables.",
-        "b": "There is a strong positive linear relationship between the two variables."
-      },
-      "explanations": {
-        "a": "This statement is correct. A correlation coefficient of 0.2 indicates a weak positive linear relationship between the two variables. The closer the correlation coefficient is to 0 (zero), the weaker the correlation.",
-        "b": "This statement is incorrect. A correlation coefficient of 0.2 indicates a weak positive linear relationship, not a strong positive linear relationship."
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is the correlation coefficient for a perfect negative linear relationship?",
-      "answers": {
-        "a": "-1",
-        "b": "0",
-        "c": "1"
-      },
-      "explanations": {
-        "a": "This statement is correct. A perfect negative linear relationship is represented by a correlation coefficient of -1.",
-        "b": "This statement is incorrect. A correlation coefficient of 0 indicates no linear relationship.",
-        "c": "This statement is incorrect. A correlation coefficient of 1 indicates a perfect positive linear relationship."
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-
     }
   ]
 }
